@@ -1,0 +1,49 @@
+ /*!
+  This css File Coded by Wael Alghamdi for Arabic Edition.
+  my email is : waaelg@gmail.com
+  my phone is : 0552254343
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Tajawal:200,400,700');
+
+ body{
+  font-family: 'Tajawal', sans-serif !important;
+ }
+
+ /* --------------------------------------------------------------*/ 
+ /* Navbar
+ /*---------------------------------------------------------------*/
+
+.menutoggle{
+  margin: 13px 0px 0 -46px;
+}
+.navbar-nav {
+  text-align: right;
+  padding-right: 0;
+}
+.navbar .navbar-nav li > a .menu-icon {
+  float: right;
+  text-align: right;
+}
+.navbar .navbar-nav li.menu-item-has-children a:before {
+  content: "\f104";
+  right: unset;
+  left: 0;
+}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu {
+  padding: 0 35px 0 0px;
+  text-align: right;
+}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu i {
+  color: #c8c9ce;
+  float: right;
+  left: unset;
+  right: 0;
+  text-align: right;
+}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu a {
+  padding: 2px 30px 2px 0px;
+}
+ /* --------------------------------------------------------------*/ 
+ /* ...
+ /*---------------------------------------------------------------*/
